@@ -135,6 +135,14 @@ services:
 - **Benchmarks**: [github.com/HapPhi/cachee-benchmarks](https://github.com/HapPhi/cachee-benchmarks)
 - **Helm Charts**: [github.com/HapPhi/cachee-helm-charts](https://github.com/HapPhi/cachee-helm-charts)
 
+## Products Built With Cachee
+
+| Product | What It Caches | Scale |
+|---------|---------------|-------|
+| [RevMine.ai](https://revmine.ai) | Trust scores, leaderboards, swap quotes | 1M entries, CacheeLFU, <1µs hit |
+| [V100.ai](https://v100.ai) | Video frame metadata, transcoding state | Sub-µs lookups |
+| [Auth1.ai](https://auth1.ai) | Rate limits, session state | Zero Redis in hot path |
+
 ## License
 
-MIT
+Apache 2.0
